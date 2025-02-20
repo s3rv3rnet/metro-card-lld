@@ -1,3 +1,7 @@
+### Reference
+https://www.geektrust.com/coding/detailed/metro-card
+
+
 ### Context
 A new metro train has been launched from the Central station to the Airport. It is a non-stop train, which means the train will stop only at the Airport with no intermediate stops.
 It is also possible to return from the Airport back to the Central station. This is also a non-stop journey.

@@ -14,6 +14,14 @@ public class Passenger {
     public BigDecimal getWalletBalance() {
         return walletBalance;
     }
+    public void addWalletBalance(BigDecimal amount) {
+        walletBalance = walletBalance.add(amount);
+    }
+
+    public void subtractWalletBalance(BigDecimal amount) {
+        walletBalance = walletBalance.subtract(amount);
+    }
+
     public int getJourneyCnt() {
         return journeyCnt;
     }
@@ -25,11 +33,5 @@ public class Passenger {
     }
     public void setJourneyCnt(int journeyCnt) {
         this.journeyCnt = journeyCnt;
-    }
-    public void setWalletBalance(BigDecimal walletBalance) {
-        this.walletBalance = walletBalance;
-    }
-    public String getName() {
-        return name;
     }
 }
